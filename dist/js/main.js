@@ -1,0 +1,1 @@
+$(document).ready(function(){$("#togglemenu").click(function(){$(".sidenav__res").addClass("sidenav__res-open"),console.log("added")}),$(".closebtn").click(function(){$(".sidenav__res").removeClass("sidenav__res-open"),console.log("removed")})});
